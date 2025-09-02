@@ -113,7 +113,7 @@ public class DisplaySettings extends DashboardFragment {
                         keys.add(KEY_HIGH_TOUCH_SENSITIVITY);
                     }
                     if (!context.getResources().getBoolean(
-                            org.lineageos.platform.internal.R.bool.config_proximityCheckOnWake)) {
+                            com.android.internal.R.bool.config_proximityCheckOnWake)) {
                         keys.add(KEY_PROXIMITY_ON_WAKE);
                     }
                     return keys;
